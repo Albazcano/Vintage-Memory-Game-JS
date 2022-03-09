@@ -9,3 +9,16 @@ body {
   width: 400px;
   height: 300px;
 }
+
+.scoreTime {
+  width: 39%;  
+}
+
+h3 {
+  font-size: xx-large;
+}
+
+.time {
+  text-align: center;
+  margin-bottom: 20px;
+}

@@ -6,12 +6,21 @@
   <link rel="stylesheet" href="style.css"></link>
   <script src="app.js" charset="utf-8"></script>
 </head>
-<body>
+<body onload="mueveReloj()">
 
-  <h3>Score:<span id="result"></span></h3>
+  <div class="scoreTime">
+      <h3>Score:<span id="result"></span></h3>
 
-  <div class="grid">
+    <div class="time">
+      <form name="form_reloj">
+      <input type="text" name="reloj" size="10" onfocus="window.document.form_reloj.reloj.blur()" style="background-color : lightpink; color : White; font-family : Verdana, Arial, Helvetica; font-size : 20pt; text-align : center;">
+    </form>
+    </div>
+      
   </div>
+  
+
+  <div class="grid"></div>
 
 </body>
 </html>
